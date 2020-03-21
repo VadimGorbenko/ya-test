@@ -1,0 +1,44 @@
+.baikal__content {
+  max-width: 1184px;
+  min-height: 594px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 40px;
+  background: url("../../images/baikal.jpg") 50% 50% / cover;
+  text-align: center;
+  position: relative;
+}
+
+.baikal__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.baikal__title {
+  color: #fffdfd;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 78px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 134px;
+}
+
+.baikal__subtitle {
+  margin: 0 auto;
+  max-width: 382px;
+  font-size: 18px;
+  line-height: 26px;
+  position: relative;
+  z-index: 2;
+}

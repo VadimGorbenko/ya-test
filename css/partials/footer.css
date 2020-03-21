@@ -1,0 +1,31 @@
+.footer {
+  max-width: 1184px;
+  margin: 160px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links__item {
+  margin-left: 18px;
+}
+
+.footer-links__item:first-child {
+  margin-left: 0;
+}
+
+.footer-links__link {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+}

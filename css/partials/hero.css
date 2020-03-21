@@ -1,0 +1,42 @@
+.hero__pic {
+  max-width: 984px;
+  margin: 0 auto 80px;
+}
+
+.hero__image {
+  display: block;
+}
+
+.hero__pic-text {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.hero__description {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.hero__description-title {
+  max-width: 685px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 59px;
+  margin-bottom: 48px;
+}
+
+.hero__description__text {
+  max-width: 685px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.hero__description__list__item {
+  font-size: 13px;
+  line-height: 20px;
+}

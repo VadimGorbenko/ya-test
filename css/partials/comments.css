@@ -1,0 +1,44 @@
+.section__intro-title_comments {
+  max-width: 800px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 108.9%;
+  margin-bottom: 48px;
+}
+
+.section__intro-description_comments {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.comments-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+.comments-list__item {
+  width: 382px;
+}
+
+.comments-list__image {
+  display: block;
+}
+
+.comments-list__text {
+  margin: 42px 0 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.comments-list__author {
+  display: block;
+  margin-top: 24px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+}

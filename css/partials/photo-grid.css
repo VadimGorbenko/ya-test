@@ -1,0 +1,11 @@
+.photo-grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: 0 auto -16px;
+}
+
+.photo-grid-list__line{
+    margin-bottom: 16px;
+}
